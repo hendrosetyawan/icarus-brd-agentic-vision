@@ -1,0 +1,13 @@
+{
+  "cow_id": "C08",
+  "camera": "cam01",
+  "time": "2026-11-08 17:32:43",
+  "risk_before": 0.99,
+  "risk_now": 0.99,
+  "reasons": [
+    "not at the bunk while 43% of the herd feeds (she feeds 0% of this window vs her usual 4%)"
+  ],
+  "snapshot": "C08.jpg",
+  "clip": "C08.mp4",
+  "message": "Check C08 in pen 6 (cam01, 17:32): not at the bunk while 43% of the herd feeds (she feeds 0% of this window vs her usual 4%). Risk 0.99 -> 0.99. For the herd veterinarian to assess."
+}

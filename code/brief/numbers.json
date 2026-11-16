@@ -1,0 +1,26 @@
+{
+  "dummy": false,
+  "team": "Team ICARUS",
+  "model": "Qwen3.5-9B",
+  "gpus": "up to 4 NVIDIA A100 40 GB GPUs (TAMU HPRC Grace)",
+  "n_labels": 144,
+  "behaviour_acc": "0.51 (n = 144; 0.507 before the movement check)",
+  "id_acc": "not measurable from single crops (5 of 147 labels could be checked; all correct)",
+  "audits": "342 / 47 / 313 labels (83 of 207 episodes passed every self-check; only those were applied)",
+  "coverage": "75 % / 15 % / 0.4 % / 8 % of 28,740",
+  "budget": "13.0 h / 3.1 h / 0.5 h",
+  "compute": "~2 h tracking on 1 A100; ~1 h agent steps on up to 4 A100s",
+  "herd_note": "C08 and C09 deviate on several measures at once: low bunk use on two independent cameras (cam02 at the bunk, cam01 over it) and fewer, longer lying bouts that lengthened on day 2 (C09: 7.4 to 4.3 bouts a day averaging 188 to 346 min; herd about 13 bouts of about 95 min). Most other differences are small. ID errors could still mix cows, so this is a ranking to check in person, not a diagnosis.",
+  "trace_success": "(cam01, 10:30): zoomed on five cows; the self-check caught two missed tracks and the fix passed;",
+  "trace_failure": "(cam03, 04:00, infrared): blurry zooms gave C03 to two tracks; rejected and never applied.",
+  "trace_night": "(cam03, 20:00, infrared) it zoomed on lying cows, noticed a white ear tag the reference sheet lacked, fixed two missed tracks after the self-check and passed.",
+  "live_alert": "On a Day 2, 17:30 cam01 clip (the evening meal) it alerted on C08, the top-risk cow, who was at the bunk 0 % of the window while 43 % of the herd fed, and on C10 (bunk 33 % vs her usual 54 %; lying 50 % vs her usual 11 % at that hour). Each alert carries a snapshot and a 15 s clip; cows that are high-risk only from Level 2 stay on the watch list.",
+  "members": "Hendro Setyawan, Ruri Kaimudin, Ikhwan Fadlu",
+  "logo": "brief/icarus_logo.jpg",
+  "brd_reading": [
+    "<b>C08 and C09 (inspect today)</b> show the Depression + Appetite pattern together, the combination pen riders act on: lying 74-79 % of the time in a few very long bouts (164 and 346 min; herd about 95), at the bunk 2.4-2.6 % of the time and missing 79-84 % of herd meals. Both got worse from day 1 (C09's bouts 188 to 346 min) and their low bunk use shows on two independent cameras. C09 also had the only open-mouth-breathing minute. Next step: pull both and take a temperature.",
+    "<b>C10 and C05 (watch closely)</b> keep apart: about twice the herd's distance to the nearest herd-mate (self-isolation). C05's bunk time also fell 7.6 points more than the herd's from day 1 to day 2; C10 lies more than the herd (72 %).",
+    "<b>C04 (watch closely)</b> had the most minutes with her head low while not eating and missed half the herd meals. C01, C03 and C07 eat, move and lie like the herd (no concern).",
+    "<b>Fever proxy (T).</b> Video cannot read temperature, but febrile cattle in challenge studies eat less and lie still more [10-12]. C09 scores highest (+1.2: lying still, not chewing, 63 % of the time vs 46-53 % for the herd), then C08 (+0.6); take C09's temperature first. Most fevers show no visible sign [13], so this orders whom to check; it does not replace a thermometer."
+  ]
+}

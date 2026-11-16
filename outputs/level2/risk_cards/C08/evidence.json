@@ -1,0 +1,23 @@
+[
+  {
+    "file": "clip1.mp4",
+    "time": "2026-11-08 08:48:00",
+    "cam": "cam03",
+    "behavior": "lying",
+    "why": "Herd at the bunk, she is lying"
+  },
+  {
+    "file": "clip2.mp4",
+    "time": "2026-11-08 12:04:00",
+    "cam": "cam03",
+    "behavior": "feeding",
+    "why": "Visible sign(s): head lowered"
+  },
+  {
+    "file": "clip3.mp4",
+    "time": "2026-11-08 19:22:00",
+    "cam": "cam03",
+    "behavior": "lying",
+    "why": "Middle of her longest lying bout (118.0 min)"
+  }
+]

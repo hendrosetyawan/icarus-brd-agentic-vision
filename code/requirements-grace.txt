@@ -1,0 +1,14 @@
+# Grace (A100) environment. vllm brings a matching torch + CUDA runtime.
+vllm>=0.19          # Qwen3.5 / Qwen3.6 support
+ultralytics>=8.3
+lap>=0.5.12         # ByteTrack matching; ultralytics would auto-install it, but compute nodes are offline
+av>=12
+transformers>=4.57
+pandas
+numpy
+pillow>=10.1
+matplotlib
+scipy
+requests
+imageio-ffmpeg
+streamlit>=1.50

@@ -1,0 +1,11 @@
+true_behavior,drinking,feeding,lying,ruminating_lying,ruminating_standing,standing,walking
+drinking,0,0,0,0,0,1,0
+feeding,0,2,0,0,0,0,0
+grooming,0,0,1,0,0,0,0
+lying,0,0,50,3,2,0,0
+other_not_visible,0,0,11,0,0,1,0
+ruminating_lying,0,0,1,0,0,0,0
+ruminating_standing,1,11,2,0,0,1,0
+social_interaction,0,3,3,0,0,2,0
+standing,2,1,18,1,1,22,3
+walking,0,1,0,0,0,0,0

@@ -1,0 +1,11 @@
+cow_id,risk_score,rank,tier,top_reasons,strong_deviations
+C08,0.999,1,inspect today,herd feeding periods she missed 84.3 % vs herd median 27 | time at the feed bunk 2.6 % of visible time vs herd median 12 | bunk visits 0.962 per visible hour vs herd median 2.24,2
+C09,0.999,2,inspect today,herd feeding periods she missed 78.7 % vs herd median 27 | time at the feed bunk 2.39 % of visible time vs herd median 12 | bunk visits 0.627 per visible hour vs herd median 2.24,4
+C10,0.813,3,watch closely,distance to nearest herd-mate 0.136 image units vs herd median 0.0765 | time lying 72 % of visible time vs herd median 66.4 | minutes with visible clinical signs 7 min vs herd median 6,1
+C05,0.708,4,watch closely,distance to nearest herd-mate 0.153 image units vs herd median 0.0765 | time at the feed bunk down 13.0 points from day1 (herd median change -5.4) | herd feeding periods she missed 41.2 % vs herd median 27,1
+C04,0.611,5,watch closely,minutes with visible clinical signs 8 min vs herd median 6 | herd feeding periods she missed 48.9 % vs herd median 27 | time at the feed bunk 7.53 % of visible time vs herd median 12,0
+C06,0.423,6,no concern,minutes with visible clinical signs 7 min vs herd median 6 | time at the feed bunk down 7.4 points from day1 (herd median change -5.4),0
+C02,0.075,7,no concern,no clear deviation from the herd,0
+C03,0.009,8,no concern,time at the feed bunk down 10.0 points from day1 (herd median change -5.4) | distance to nearest herd-mate 0.096 image units vs herd median 0.0765,0
+C01,0.005,9,no concern,time at the feed bunk down 8.4 points from day1 (herd median change -5.4) | bunk visits 1.66 per visible hour vs herd median 2.24,0
+C07,0.002,10,no concern,drinking bouts 0.148 per visible hour vs herd median 0.335,0

@@ -1,0 +1,35 @@
+{
+  "episodes": {
+    "success": 4528,
+    "unresolved": 202,
+    "failed_check": 22
+  },
+  "episodes_by_kind": {
+    "behavior": 4539,
+    "audit": 207,
+    "gallery": 6
+  },
+  "cow_minutes": 28740,
+  "source_share": {
+    "fast": 0.754,
+    "agent_success": 0.154,
+    "not_visible": 0.055,
+    "no_frame": 0.029,
+    "estimated": 0.004,
+    "agent_unresolved": 0.003,
+    "agent_failed_check": 0.0
+  },
+  "visible_share_by_day_night": {
+    "day1_day": 0.971,
+    "day1_night": 0.946,
+    "day2_day": 0.973,
+    "day2_night": 0.793
+  },
+  "accuracy": {
+    "labelled": 147,
+    "behaviour_accuracy": 0.514,
+    "behaviour_n": 144,
+    "id_accuracy": 1.0,
+    "id_n": 5
+  }
+}
